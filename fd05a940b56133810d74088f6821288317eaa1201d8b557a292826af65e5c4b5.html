@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Damiel James Rubin - Content Creator, Businessman, and Actor from Medina, Misamis Oriental. Graduate of Bukidnon State University.">
+    <meta name="keywords" content="Damiel James Rubin, content creator, actor, businessman, Bukidnon State University, Medina Misamis Oriental, Vale Lat">
+    <meta name="author" content="Damiel James Rubin">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Damiel James Rubin - Content Creator, Businessman & Actor">
+    <meta property="og:description" content="Official website of Damiel James Rubin - Content Creator, Businessman, and Actor from the Philippines.">
+    <meta property="og:image" content="https://pfst.cf2.poecdn.net/base/image/09d35b4ec5452a7d8c5368c10895198a88f36491213e5c14ab371aece30a21ab?w=1568&h=3392">
+    <meta property="profile:first_name" content="Damiel">
+    <meta property="profile:last_name" content="Rubin">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Damiel James Rubin - Content Creator, Businessman & Actor">
+    <meta name="twitter:description" content="Official website of Damiel James Rubin - Content Creator, Businessman, and Actor from the Philippines.">
+    <meta name="twitter:image" content="https://pfst.cf2.poecdn.net/base/image/09d35b4ec5452a7d8c5368c10895198a88f36491213e5c14ab371aece30a21ab?w=1568&h=3392">
+
+    <!-- Structured Data for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Damiel James Rubin",
+      "alternateName": "Vale Lat",
+      "image": "https://pfst.cf2.poecdn.net/base/image/09d35b4ec5452a7d8c5368c10895198a88f36491213e5c14ab371aece30a21ab?w=1568&h=3392",
+      "birthDate": "1995-01-05",
+      "birthPlace": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Medina",
+          "addressRegion": "Misamis Oriental",
+          "addressCountry": "Philippines"
+        }
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Bukidnon State University"
+      },
+      "jobTitle": ["Content Creator", "Businessman", "Actor"],
+      "sameAs": [
+        "https://www.facebook.com/damieljames.andrew",
+        "https://tiktok.com/@valelat24"
+      ],
+      "relatedTo": [
+        {
+          "@type": "Person",
+          "name": "Zoren Jay Rubin",
+          "relatedTo": "Brother"
+        },
+        {
+          "@type": "Person",
+          "name": "Elvira Rubin",
+          "relatedTo": "Mother"
+        },
+        {
+          "@type": "Person",
+          "name": "Zosimo Rubin",
+          "relatedTo": "Father"
+        }
+      ]
+    }
+    </script>
+
+    <title>Damiel James Rubin - Content Creator, Businessman & Actor</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #ff6b35;
+            --secondary: #f7931e;
+            --dark: #0d1b2a;
+            --darker: #050a0f;
+            --light: #e0e1dd;
+            --accent: #00d9ff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: var(--darker);
+            color: var(--light);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Animated background */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            background:
+                linear-gradient(135deg, var(--darker) 0%, var(--dark) 100%);
+            overflow: hidden;
+        }
+
+        .bg-animation::before,
+        .bg-animation::after {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.15;
+            animation: float 20s infinite ease-in-out;
+        }
+
+        .bg-animation::before {
+            width: 600px;
+            height: 600px;
+            background: var(--primary);
+            top: -200px;
+            left: -200px;
+            animation-delay: 0s;
+        }
+
+        .bg-animation::after {
+            width: 500px;
+            height: 500px;
+            background: var(--accent);
+            bottom: -150px;
+            right: -150px;
+            animation-delay: 5s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(100px, -100px) scale(1.1); }
+            66% { transform: translate(-100px, 100px) scale(0.9); }
+        }
+
+        /* Main content */
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        .hero-content {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .profile-photo {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 2rem;
+            border: 5px solid var(--primary);
+            box-shadow: 0 20px 60px rgba(255, 107, 53, 0.4),
+                        0 0 0 10px rgba(255, 107, 53, 0.1);
+            animation: fadeIn 1s ease-out 0.3s backwards;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-photo:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(3rem, 10vw, 8rem);
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 50%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            animation: slideInLeft 1s ease-out;
+        }
+
+        .subtitle {
+            font-size: clamp(1rem, 3vw, 1.5rem);
+            font-weight: 300;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: var(--light);
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            animation: slideInRight 1s ease-out 0.2s backwards;
+        }
+
+        .tagline {
+            font-size: clamp(0.875rem, 2vw, 1.125rem);
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 3rem;
+            animation: fadeIn 1s ease-out 0.4s backwards;
+        }
+
+        /* Social Links */
+        .social-links {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 1s ease-out 0.6s backwards;
+        }
+
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid var(--primary);
+            color: var(--light);
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.875rem;
+            letter-spacing: 0.1em;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.5s;
+        }
+
+        .social-btn:hover::before {
+            left: 100%;
+        }
+
+        .social-btn:hover {
+            border-color: var(--accent);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+        }
+
+        .social-btn.facebook {
+            border-color: #1877f2;
+        }
+
+        .social-btn.facebook:hover {
+            box-shadow: 0 10px 30px rgba(24, 119, 242, 0.3);
+            border-color: #1877f2;
+        }
+
+        .social-btn.tiktok {
+            border-color: #ff0050;
+        }
+
+        .social-btn.tiktok:hover {
+            box-shadow: 0 10px 30px rgba(255, 0, 80, 0.3);
+            border-color: #00f2ea;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 4rem 0;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .section-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(2rem, 5vw, 4rem);
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary);
+            letter-spacing: 0.05em;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .info-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 107, 53, 0.2);
+            padding: 2rem;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+            box-shadow: 0 10px 40px rgba(255, 107, 53, 0.2);
+        }
+
+        .info-card h3 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.5rem;
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            letter-spacing: 0.05em;
+        }
+
+        .info-card p {
+            color: var(--light);
+            line-height: 1.8;
+        }
+
+        .info-label {
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Timeline */
+        .timeline {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+
+        .timeline-item {
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-left: 4px solid var(--primary);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-item:hover {
+            background: rgba(255, 107, 53, 0.1);
+            transform: translateX(10px);
+        }
+
+        .timeline-date {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .timeline-content {
+            margin-top: 0.5rem;
+            color: var(--light);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 3rem 1rem;
+            margin-top: 4rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        footer p {
+            color: var(--light);
+            opacity: 0.7;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .profile-photo {
+                width: 200px;
+                height: 200px;
+            }
+
+            .social-links {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .social-btn {
+                justify-content: center;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Scroll indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        .scroll-indicator::before {
+            content: '↓';
+            font-size: 2rem;
+            color: var(--primary);
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+            40% { transform: translateX(-50%) translateY(-10px); }
+            60% { transform: translateX(-50%) translateY(-5px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <img src="https://pfst.cf2.poecdn.net/base/image/09d35b4ec5452a7d8c5368c10895198a88f36491213e5c14ab371aece30a21ab?w=1568&h=3392" alt="Damiel James Rubin - Content Creator, Businessman, and Actor" class="profile-photo">
+                <h1>DAMIEL JAMES RUBIN</h1>
+                <p class="subtitle">Content Creator • Businessman • Actor</p>
+                <p class="tagline">From Medina, Misamis Oriental to the Digital World</p>
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/damieljames.andrew" target="_blank" class="social-btn facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                        Facebook
+                    </a>
+                    <a href="https://tiktok.com/@valelat24" target="_blank" class="social-btn tiktok">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                        </svg>
+                        TikTok
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator"></div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-grid">
+                <div class="info-card">
+                    <h3>Who I Am</h3>
+                    <p>Multi-talented content creator, businessman, and actor with a passion for storytelling and entrepreneurship. Born and raised in the beautiful province of Misamis Oriental, Philippines.</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Education</h3>
+                    <p class="info-label">Graduate</p>
+                    <p>Bukidnon State University<br>Graduated: April 7, 2022</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Background</h3>
+                    <p class="info-label">Born</p>
+                    <p>January 5, 1995<br>Medina, Misamis Oriental, Philippines</p>
+                </div>
+            </div>
+
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">January 5, 1995</div>
+                    <div class="timeline-content">
+                        Born in Medina, Misamis Oriental, Philippines
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">April 7, 2022</div>
+                    <div class="timeline-content">
+                        Graduated from Bukidnon State University
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Present</div>
+                    <div class="timeline-content">
+                        Active as Content Creator, Businessman, and Actor<br>
+                        Building a digital presence and creating meaningful content
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-title">Family</h2>
+            <div class="about-grid">
+                <div class="info-card">
+                    <h3>Mother</h3>
+                    <p class="info-label">Elvira Rubin</p>
+                    <p>Born in Medina, Misamis Oriental</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Father</h3>
+                    <p class="info-label">Zosimo Rubin</p>
+                    <p>Originally from Lantapan, Bukidnon</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Brother</h3>
+                    <p class="info-label">Zoren Jay Rubin</p>
+                    <p>Family is everything</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Damiel James Rubin. All rights reserved.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.875rem;">Content Creator • Businessman • Actor</p>
+    </footer>
+</body>
+</html>
